@@ -26,9 +26,9 @@
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
-    <depends>com.intellij.modules.platform</depends>
-    <depends>org.jetbrains.android</depends>
     <depends>com.intellij.modules.androidstudio</depends>
+    <depends>org.jetbrains.kotlin</depends>
+    <depends>org.jetbrains.android</depends>
     <depends>com.intellij.modules.java</depends>
 
     <extensions defaultExtensionNs="com.android">
